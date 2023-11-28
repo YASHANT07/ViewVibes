@@ -1,0 +1,49 @@
+.hotstar-navbar {
+    background-color: #0F1621;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hotstar-navbar-left h2 {
+    margin-right: 1rem;
+    font-size: 1.5rem; /* Adjust the font size as needed */
+}
+
+.hotstar-navbar-left ul {
+    list-style: none;
+    display: flex;
+    align-items: center; /* Align the items vertically in the center */
+}
+
+.hotstar-navbar-left li {
+    margin-right: 1rem;
+    cursor: pointer; /* Add cursor pointer for better usability */
+}
+
+
+
+.hotstar-navbar-left li:hover {
+    color: #47b3ff; /* Change the color on hover as needed */
+}
+
+.hotstar-navbar-right input {
+    margin-right: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    border: none;
+}
+
+.hotstar-navbar-right button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: #47b3ff;
+    color: white;
+    cursor: pointer;
+}
+
+.hotstar-navbar-right button:hover {
+    background-color: #2389e6; /* Change the background color on hover as needed */
+}

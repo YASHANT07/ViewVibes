@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { Routes,Route } from 'react-router-dom';
+import Home from './components/Home.jsx';
+import TvShow from './components/TvShow.jsx'
+import Trending from './components/Trending.jsx'
+import Movies from './components/Movies.jsx'
+import Sports from './components/Sports.jsx'
+import Kids from './components/Kids.jsx'
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route  path="/" element={<Home/>}/>
+        <Route path="/tv_show" element={<TvShow/>}/>
+        <Route path="/trending" element={<Trending/>}/> 
+        <Route path="/movies" element={<Movies/>}/>
+        <Route path="/sports" element={<Sports/>}/>
+        <Route path="/kids" element={<Kids/>}/>
+      </Routes>
+      
     </div>
   );
 }

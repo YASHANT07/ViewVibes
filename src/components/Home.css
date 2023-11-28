@@ -1,0 +1,63 @@
+.hotstar-home-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.cricket-match-section {
+    margin-bottom: 2rem;
+}
+
+.cricket-match-section h2 {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.5;
+    font-size: 1.5rem;
+    
+    
+}
+
+.cricket-match-section img {
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.categories-section {
+    margin-bottom: 2rem;
+}
+
+.categories-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.categories-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.category-item {
+    padding: 0.5rem 1rem;
+    background-color: #f2f2f2;
+    margin: 90px;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+.movie-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    padding-left:80px ;
+}
+
+.movie-card h3{
+
+    display: flex;
+    justify-content: last baseline;
+    align-items: last baseline;
+}
